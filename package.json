@@ -1,0 +1,31 @@
+{
+  "name": "confluent-cli",
+  "version": "1.0.0",
+  "bin": {
+    "confl": "./lib/confl.js"
+  },
+  "author": "kelveden@gmail.com",
+  "dependencies": {
+    "JSONPath": "0.11.2",
+    "colors": "1.1.2",
+    "commander": "2.11.0",
+    "lodash": "4.17.4",
+    "moment": "2.19.1",
+    "prettyjson": "1.2.1",
+    "ramda": "0.25.0",
+    "request": "2.83.0"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "gulp": "3.9.1",
+    "gulp-complexity": "0.3.2",
+    "gulp-jshint": "2.0.4",
+    "gulp-mocha": "4.3.1",
+    "jshint": "2.9.5",
+    "jshint-stylish": "2.2.1",
+    "mocha": "4.0.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
