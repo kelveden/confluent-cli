@@ -7,13 +7,18 @@
   "author": "kelveden@gmail.com",
   "dependencies": {
     "JSONPath": "0.11.2",
+    "avsc": "^5.2.0",
     "colors": "1.1.2",
     "commander": "2.13.0",
+    "kafka-node": "^2.3.2",
     "lodash": "4.17.4",
     "moment": "2.20.1",
+    "node-rdkafka": "^2.2.1",
+    "node-uuid": "^1.4.8",
     "prettyjson": "1.2.1",
     "ramda": "0.25.0",
-    "request": "2.83.0"
+    "request": "2.83.0",
+    "through2": "^2.0.3"
   },
   "devDependencies": {
     "gulp": "3.9.1",
