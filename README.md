@@ -3,7 +3,12 @@ confl
 
 Installation
 ------------
-Pull down the source and run `npm link`.
+Pull down the source and run
+
+```
+npm install
+npm link
+```
 
 Configuration
 -------------
