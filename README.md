@@ -1,13 +1,10 @@
-confl
-=====
+confluent-cli
+=============
 
 Installation
 ------------
-Pull down the source and run
-
 ```
-npm install
-npm link
+npm install confluent-cli
 ```
 
 Configuration
@@ -17,26 +14,24 @@ You'll need a `~/.confl/config` file of the following form:
 ```json
 {
 	"profiles": {
-		"uat": {
-			"apiUrl": "https://confluent-api-host:port",
-			"schemaRegistry": "https://schema-registry-host:port",
- 			"broker": "kafka-host:port",
-			"username": "youruser",
-			"password": "yourpassword"
-		}
+        "test": {
+            "apiUrl": "https://confluent-api-host:port",
+            "schemaRegistry": "https://schema-registry-host:port",
+            "broker": "kafka-broker:port",
+            "username": "kafka-username",
+            "password": "kafka-password",
+            "ssl": {
+                "key": "-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----",
+                "cert": "-----BEGIN CERTIFICATE-----\n...\n-----END CERTIFICATE-----",
+                "ca": "-----BEGIN CERTIFICATE-----\n...\n-----END CERTIFICATE-----"
+            }
+        }
 	},
-	"defaultProfile": "uat"
+	"defaultProfile": "test"
 }
-
 ```
-
-Note that you'll also need the same 
 
 Usage
 -----
 Run `confl --help` for a list of available commands and then `confl <command> --help` for more
 help on a specific command.
-
-E.g.
-
-`confl stream losses-consumer-status-update-v3 -o beginning`
