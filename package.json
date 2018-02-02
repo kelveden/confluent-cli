@@ -4,7 +4,11 @@
   "bin": {
     "confl": "./lib/confl.js"
   },
-  "author": "kelveden@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kelveden/confluent-cli"
+  },
+  "license": "BSD-3-Clause",
   "dependencies": {
     "JSONPath": "0.11.2",
     "avsc": "5.2.0",
