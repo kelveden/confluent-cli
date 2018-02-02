@@ -4,7 +4,7 @@ confluent-cli
 Installation
 ------------
 ```
-npm install confluent-cli
+npm install -g confluent-cli
 ```
 
 Configuration
