@@ -21,8 +21,9 @@
     "prettyjson": "1.2.1",
     "ramda": "0.25.0",
     "request": "2.83.0",
+    "request-promise-native": "1.0.5",
     "through2": "2.0.3",
-    "uuid": "^3.2.1"
+    "uuid": "3.2.1"
   },
   "devDependencies": {
     "gulp": "3.9.1",
