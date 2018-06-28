@@ -11,27 +11,20 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "JSONPath": "0.11.2",
-    "avsc": "5.2.0",
-    "colors": "1.1.2",
-    "commander": "2.13.0",
+    "avsc": "5.3.1",
+    "colors": "1.3.0",
+    "commander": "2.15.1",
     "get-stream": "3.0.0",
     "jsedn": "0.4.1",
-    "kafka-node": "2.3.2",
-    "lodash": "4.17.4",
-    "moment": "2.20.1",
-    "npm": "^5.7.1",
+    "kafka-node": "2.6.1",
+    "lodash": "4.17.10",
+    "moment": "2.22.2",
     "prettyjson": "1.2.1",
     "ramda": "0.25.0",
-    "request": "2.83.0",
+    "request": "2.87.0",
     "request-promise-native": "1.0.5",
     "through2": "2.0.3",
-    "uuid": "3.2.1"
-  },
-  "devDependencies": {
-    "gulp": "3.9.1",
-    "gulp-jshint": "2.1.0",
-    "jshint": "2.9.5",
-    "jshint-stylish": "2.2.1"
+    "uuid": "3.3.0"
   },
   "engines": {
     "node": ">=8.0.0"
