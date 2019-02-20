@@ -1,6 +1,6 @@
 {
   "name": "confluent-cli",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "bin": {
     "confl": "./lib/confl.js"
   },
