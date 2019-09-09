@@ -1,5 +1,6 @@
 confluent-cli
 =============
+> IMPORTANT: note that this package has no connection with Confluent themselves or with the official Confluent CLI (https://docs.confluent.io/current/cli/index.html)
 
 Installation
 ------------
