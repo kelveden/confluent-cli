@@ -18,7 +18,7 @@
     "jsedn": "0.4.1",
     "kafka-node": "2.6.1",
     "kafkajs": "1.3.1",
-    "lodash": "4.17.10",
+    "lodash": "4.17.13",
     "moment": "2.22.2",
     "prettyjson": "1.2.1",
     "ramda": "0.25.0",
